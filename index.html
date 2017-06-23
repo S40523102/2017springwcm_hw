@@ -39,9 +39,9 @@
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-#羿蓉的計算機程式課程
+#2017網際內容管理
 
-##四設一甲 40523102
+##四設一甲 40523102杜羿蓉
 <small>
 Created by [40523102](https://github.com/s40523102)
 </small>
@@ -56,20 +56,65 @@ Created by [40523102](https://github.com/s40523102)
 
 
 						
+<section data-markdown>
+    <script type="text/template">
+#課程內容 <br/>
+
+1. CMSimfly 網際內容管理程式 <br/>
+
+2.Fossil SCM 配置與應用 <br/>
+
+3.網際伺服器環境管理 <br/>
+
+4.接網路線 <br/>
+
+5.拆主機板 <br/>
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+#機械設計 : <br/>
+設計是一種表達，經過討論，考量以及思考 一般表達的方法, 包括口語表達, 文字表達, 2D 表達, 3D 表達, 理論表達, 實體觀看表達等 而機械設計共包含下列要件 詳細思慮考量 為互動元件間之精巧配置 配置可展現特定功能, 用於解決所面臨問題 明確表達結果之具體規劃
+    </script>
 </section>
 
+<section data-markdown>
+    <script type="text/template">
+#使用Virtual box開啟Ubunto <br/>
+#建立一個虛擬主機 <br/>
+建立虛擬主機:給一個名稱，類型用Linux，版本用Ubunto(64-bit)，記憶體設2407MD <br/>
+建立一個虛擬硬碟 <br/>
+在D潮新增一資料夾並存進去 <br/>
+開啟Ubunto <br/>
+    </script>
 </section>
 
+<section data-markdown>
+    <script type="text/template">
+#網路線的接頭 <br/>
 
-						
+兩種接頭  <br/>
+標準接線568B: (由左到右) <br/>
+橘白 橘 綠白 藍 藍白 綠 褐白 褐 <br/>
+電腦對接568A: <br/>
+綠白 綠 橘白 藍 藍白 橘 褐白 褐 <br/>
+    </script>
 </section>
 
-</section>
+<section data-markdown>
+    <script type="text/template">
+#如何連線到ipv6的網路 <br/>
 
-</section>
-
-
-						
+<small>
+打開start 輸入ipconfig 找出乙太網路ipv4的網址 <br/> 
+將leo開啟後 data->tmp->cmsimfly->cmsfly.leo  <br/>
+找@clean wsgi.py 把192.168.1.54改掉ipv4的位址 port=1443改成port=443  <br/>
+回到start->python wsgi.py 在開啟google 進入網路和共用中心  <br/>
+選擇乙太網路內容 把IPV4打勾按掉 選擇IPV6 然後打勾IPV6  <br/>
+點選內容 將設定改成proxy->LAN設定->位址:proxy.mde.tw  <br/>
+連接阜:3128->進階->例外 https://ipv4位址:port 在開啟心分頁輸入網址即可 <br/>
+</small>
+    </script>
 </section>
 
 </section>

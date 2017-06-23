@@ -37,8 +37,6 @@
 <v t="yen.20161016004633.1" a="E"><vh>第三頁</vh>
 <v t="yen.20161016004633.4"><vh>第三頁內容</vh></v>
 </v>
-<v t="yen.20161011122932.1"><vh>第四頁</vh></v>
-<v t="yen.20161011122601.1"><vh>第四頁內容</vh></v>
 <v t="yen.20161011125115.1" a="E"><vh>第五頁</vh>
 <v t="yen.20161016011920.1"><vh>第五頁內容</vh></v>
 </v>
@@ -251,9 +249,9 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2">#羿蓉的計算機程式課程
+<t tx="amd.20161004095719.2">#2017網際內容管理
 
-##四設一甲 40523102
+##四設一甲 40523102杜羿蓉
 &lt;small&gt;
 Created by [40523102](https://github.com/s40523102)
 &lt;/small&gt;
@@ -264,11 +262,12 @@ Created by [40523102](https://github.com/s40523102)
 [小組倉儲](https://github.com/s40523102/2017springwcm_g6) &lt;br/&gt;
 [小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) &lt;br/&gt;
 </t>
-<t tx="amd.20161004104820.1">&lt;/section&gt;
-
+<t tx="amd.20161004104820.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
 @others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-						
 </t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
@@ -382,7 +381,8 @@ DEFAULT_DATE = 'fs'</t>
 </t>
 <t tx="leo.20170421014941.3"></t>
 <t tx="leo.20170421014941.4"></t>
-<t tx="leo.20170421015127.1"></t>
+<t tx="leo.20170421015127.1">#機械設計 : &lt;br/&gt;
+設計是一種表達，經過討論，考量以及思考 一般表達的方法, 包括口語表達, 文字表達, 2D 表達, 3D 表達, 理論表達, 實體觀看表達等 而機械設計共包含下列要件 詳細思慮考量 為互動元件間之精巧配置 配置可展現特定功能, 用於解決所面臨問題 明確表達結果之具體規劃</t>
 <t tx="leo.20170421115328.10">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -963,38 +963,78 @@ Diff...
 - &lt;p&gt;&lt;a href="https://vimeo.com/191363717"&gt;github&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 -     &lt;/script&gt;
 </t>
-<t tx="yen.20161011122601.1"></t>
-<t tx="yen.20161011122932.1">&lt;/section&gt;
-
-@others</t>
-<t tx="yen.20161011125115.1">&lt;/section&gt;
-
+<t tx="yen.20161011125115.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
 @others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-						
 </t>
-<t tx="yen.20161011143808.1">&lt;/section&gt;
+<t tx="yen.20161011143808.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-@others</t>
-<t tx="yen.20161011143808.2"></t>
+</t>
+<t tx="yen.20161011143808.2">#如何連線到ipv6的網路 &lt;br/&gt;
+
+&lt;small&gt;
+打開start 輸入ipconfig 找出乙太網路ipv4的網址 &lt;br/&gt; 
+將leo開啟後 data-&gt;tmp-&gt;cmsimfly-&gt;cmsfly.leo  &lt;br/&gt;
+找@clean wsgi.py 把192.168.1.54改掉ipv4的位址 port=1443改成port=443  &lt;br/&gt;
+回到start-&gt;python wsgi.py 在開啟google 進入網路和共用中心  &lt;br/&gt;
+選擇乙太網路內容 把IPV4打勾按掉 選擇IPV6 然後打勾IPV6  &lt;br/&gt;
+點選內容 將設定改成proxy-&gt;LAN設定-&gt;位址:proxy.mde.tw  &lt;br/&gt;
+連接阜:3128-&gt;進階-&gt;例外 https://ipv4位址:port 在開啟心分頁輸入網址即可 &lt;br/&gt;
+&lt;/small&gt;</t>
 <t tx="yen.20161011145156.1">&lt;/section&gt;
 
 @others</t>
 <t tx="yen.20161011145156.2"></t>
-<t tx="yen.20161016004633.1">&lt;/section&gt;
+<t tx="yen.20161016004633.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-@others</t>
-<t tx="yen.20161016004633.4"></t>
-<t tx="yen.20161016011920.1"></t>
+</t>
+<t tx="yen.20161016004633.4">#使用Virtual box開啟Ubunto &lt;br/&gt;
+#建立一個虛擬主機 &lt;br/&gt;
+建立虛擬主機:給一個名稱，類型用Linux，版本用Ubunto(64-bit)，記憶體設2407MD &lt;br/&gt;
+建立一個虛擬硬碟 &lt;br/&gt;
+在D潮新增一資料夾並存進去 &lt;br/&gt;
+開啟Ubunto &lt;br/&gt;</t>
+<t tx="yen.20161016011920.1">#網路線的接頭 &lt;br/&gt;
+
+兩種接頭  &lt;br/&gt;
+標準接線568B: (由左到右) &lt;br/&gt;
+橘白 橘 綠白 藍 藍白 綠 褐白 褐 &lt;br/&gt;
+電腦對接568A: &lt;br/&gt;
+綠白 綠 橘白 藍 藍白 橘 褐白 褐 &lt;br/&gt;</t>
 <t tx="yen.20161016012809.1">&lt;/section&gt;
 
 @others
 </t>
 <t tx="yen.20161016012809.2"></t>
-<t tx="yen.20161016023122.1">&lt;/section&gt;
+<t tx="yen.20161016023122.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="yen.20161016023122.2">#課程內容 &lt;br/&gt;
 
-@others</t>
-<t tx="yen.20161016023122.2"></t>
+1. CMSimfly 網際內容管理程式 &lt;br/&gt;
+
+2.Fossil SCM 配置與應用 &lt;br/&gt;
+
+3.網際伺服器環境管理 &lt;br/&gt;
+
+4.接網路線 &lt;br/&gt;
+
+5.拆主機板 &lt;br/&gt;
+</t>
 <t tx="yen.20161022111056.1">@language python
 import os
 import subprocess
