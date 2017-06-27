@@ -251,7 +251,7 @@ print("hello")
 </t>
 <t tx="amd.20161004095719.2">#2017網際內容管理
 
-##四設一甲 杜羿蓉
+##四設一甲杜羿蓉
 &lt;small&gt;
 Created by [40523102](https://github.com/s40523102)
 &lt;/small&gt;
@@ -988,10 +988,14 @@ Diff...
 點選內容 將設定改成proxy-&gt;LAN設定-&gt;位址:proxy.mde.tw  &lt;br/&gt;
 連接阜:3128-&gt;進階-&gt;例外 https://ipv4位址:port 在開啟心分頁輸入網址即可 &lt;br/&gt;
 &lt;/small&gt;</t>
-<t tx="yen.20161011145156.1">&lt;/section&gt;
+<t tx="yen.20161011145156.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="yen.20161011145156.2">#心得
 
-@others</t>
-<t tx="yen.20161011145156.2"></t>
+這學期學了很多新的東西，但同時也要使用上學期學的東西，覺得都滿困難的，還試著接網路線跟用主機板的東西，第一次接觸這些感覺真的很酷。</t>
 <t tx="yen.20161016004633.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
