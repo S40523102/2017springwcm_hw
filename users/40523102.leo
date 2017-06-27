@@ -251,7 +251,7 @@ print("hello")
 </t>
 <t tx="amd.20161004095719.2">#2017網際內容管理
 
-##四設一甲 40523102杜羿蓉
+##四設一甲 杜羿蓉
 &lt;small&gt;
 Created by [40523102](https://github.com/s40523102)
 &lt;/small&gt;
